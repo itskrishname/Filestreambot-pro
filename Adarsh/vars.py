@@ -11,11 +11,11 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '24828197'))
     API_HASH = str(getenv('API_HASH', 'd36e278e89ebeb900aeda4128d413a77'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', ''))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '8121712200:AAF7iX7so7Bs6ciuhz8GVyqx5GsA5iEYYP0'))
     name = str(getenv('name', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002659515511'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
